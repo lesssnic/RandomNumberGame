@@ -6,9 +6,41 @@
 
 .container {
     display: flex;
+    margin: 0 auto;
+    width: 70vw;
+    height: 100vh;
+    background-color: seashell;
     justify-content: center;
+    box-sizing: border-box;
 }
 
 .center {
+    flex-direction: column;
+    align-content: center;
+    height: 70vh;
+}
 
+form {
+    text-align: center;
+    position: relative;
+    margin-top: 20px;
+}
+form * {
+    text-align: center;
+    display: block;
+    margin: 0 auto 30px;
+}
+.line {
+    display: flex;
+}
+.random {
+    width: auto;
+    height: 100px;
+}
+button {
+
+    display: block;
+    width: 100px;
+    height: 50px;
+    display: block;
 }
