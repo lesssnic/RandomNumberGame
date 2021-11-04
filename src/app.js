@@ -3,7 +3,8 @@ let usedNumbers = new Set();
 let count = 0;
 
 function validateRange (min, max) {
-    if (max-min <= 0) return true;
+    let validator = max-min <= 0 || !Number.isInteger(max) || !Number.isInteger(min);
+    if (validator) return true;
     return false
 }
 
