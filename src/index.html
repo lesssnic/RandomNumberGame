@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./style.css">
-    <script src="./app.js"></script>
+    <script defer src="./app.js"></script>
     <title>Random Number</title>
 </head>
 <body>
@@ -19,8 +19,8 @@
                 <input id="max" type="number" value="10">
                 <div class="random"><p>Generated number: </p><span id="randNum"> </span></div>
                 <div class="line">
-                    <button id="generateButton" onclick="generateNumber(event)">GENERATE</button>
-                    <button onclick="reset(event)">Reset</button>
+                    <button id="resetButton">Reset</button>
+                    <button id="generateButton">GENERATE</button>
                 </div>
                 
             </form>

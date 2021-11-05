@@ -43,4 +43,8 @@ button {
     width: 100px;
     height: 50px;
     display: block;
+    background-color: rgb(236, 135, 135);
 }
+ #generateButton {
+     background-color: rgb(109, 170, 109);
+ }
